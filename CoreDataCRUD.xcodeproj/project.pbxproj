@@ -15,6 +15,8 @@
 		7BD43A6F2303E51F007FAF2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD43A6D2303E51F007FAF2D /* LaunchScreen.storyboard */; };
 		7BD43A7A2303E51F007FAF2D /* CoreDataCRUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD43A792303E51F007FAF2D /* CoreDataCRUDTests.swift */; };
 		7BD43A852303E51F007FAF2D /* CoreDataCRUDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD43A842303E51F007FAF2D /* CoreDataCRUDUITests.swift */; };
+		7BD43A932303E541007FAF2D /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD43A922303E541007FAF2D /* Core.swift */; };
+		7BD43A9523040648007FAF2D /* NSManagedObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD43A9423040648007FAF2D /* NSManagedObjectExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7BD43A802303E51F007FAF2D /* CoreDataCRUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataCRUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD43A842303E51F007FAF2D /* CoreDataCRUDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCRUDUITests.swift; sourceTree = "<group>"; };
 		7BD43A862303E51F007FAF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD43A922303E541007FAF2D /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		7BD43A9423040648007FAF2D /* NSManagedObjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSManagedObjectExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				7BD43A612303E51E007FAF2D /* AppDelegate.swift */,
 				7BD43A632303E51E007FAF2D /* ViewController.swift */,
+				7BD43A922303E541007FAF2D /* Core.swift */,
+				7BD43A9423040648007FAF2D /* NSManagedObjectExtensions.swift */,
 				7BD43A652303E51E007FAF2D /* Main.storyboard */,
 				7BD43A6B2303E51F007FAF2D /* Assets.xcassets */,
 				7BD43A6D2303E51F007FAF2D /* LaunchScreen.storyboard */,
@@ -261,7 +267,9 @@
 			files = (
 				7BD43A6A2303E51E007FAF2D /* CoreDataCRUD.xcdatamodeld in Sources */,
 				7BD43A642303E51E007FAF2D /* ViewController.swift in Sources */,
+				7BD43A932303E541007FAF2D /* Core.swift in Sources */,
 				7BD43A622303E51E007FAF2D /* AppDelegate.swift in Sources */,
+				7BD43A9523040648007FAF2D /* NSManagedObjectExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
