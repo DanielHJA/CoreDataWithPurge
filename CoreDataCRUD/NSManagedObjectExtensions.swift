@@ -13,17 +13,11 @@ extension NSManagedObject {
     
     static var entityDescription: NSEntityDescription? {
         guard let context = Core.shared.context else { return nil }
-        
-        if self == Animal.self {
-            return NSEntityDescription.entity(forEntityName: "Animal", in: context)
-        }
-        
-        return nil
+        return NSEntityDescription.entity(forEntityName: String(describing: self), in: context)
     }
     
     static var entityName: String? {
-        if self == Animal.self { return "Animal" }
-        return nil
+        return String(describing: self)
     }
     
 }
